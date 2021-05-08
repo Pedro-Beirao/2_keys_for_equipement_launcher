@@ -3,19 +3,19 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["pynput>=1.7.3"]
+requirements = ["pynput"]
 
 setup(
-    name="cookie_clicker-bot",
+    name="2_keys_for_equipement_launcher",
     version="1",
     author="PBeGood4",
     author_email="pbegood.mail@gmail.com",
-    description="Fastest cookie clicker bot in the west.",
+    description="A 'mod' to have seperate keys for each grenade in Doom Eternal",
     long_description=readme,
     long_description_content_type="text/markdown",
-    keywords="cookie clicker bot python",
-    url="https://github.com/PBeGood4/cookie_clicker-bot/",
-    scripts=["cookiebot.py"],
+    keywords="doom eternal python3 mod",
+    url="https://github.com/PBeGood4/2_keys_for_equipement_launcher/",
+    scripts=["doomhack.py"],
     packages=[],
     install_requires=requirements,
     classifiers=[
