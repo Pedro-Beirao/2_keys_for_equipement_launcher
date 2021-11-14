@@ -3,12 +3,6 @@ Program that allows you to have seperate keys for each grenade in Doom Eternal
 
 All you need is a python environment.
 
-## Installation
-
-```
-$ pip install git+https://github.com/PBeGood4/2_keys_for_equipement_launcher/
-```
-
 ## Setup
 
 1. Open Doom Eternal
@@ -18,7 +12,9 @@ $ pip install git+https://github.com/PBeGood4/2_keys_for_equipement_launcher/
 ## Run
 
 ```
-$ doomhack.py
+$ pip install pynput
+
+$ python3 doomhack.py
 ```
 
 It will ask you to choose a key for throwing the Grenade and one for the Ice Bomb, choose whatever you want for each
