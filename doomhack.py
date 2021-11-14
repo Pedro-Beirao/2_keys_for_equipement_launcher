@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from pynput import mouse,keyboard
 from pynput.mouse import Controller, Button
 import time
